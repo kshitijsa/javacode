@@ -1,18 +1,13 @@
 //kshitij sahu
 //Rollno-->2215000952
 
-import java.util.Scanner;
-
-public class Assignment1 { 
-      public static void main(String args[]) {
+import java.util.*;
+  public static void main(String args[]) {
         Scanner ob = new Scanner(System.in);
-        int n;
-        System.out.println("Enter the limit that is value of n");
+        int n, i;
+        System.out.println("Enter the number");
         n = ob.nextInt();
-        int i = 1;
-        while (i <= n) {
+        for (i = 1; i <= n; i++) {
             System.out.println(i);
-            i++;
-        }
-    }
-}
+ }}
+
